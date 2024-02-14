@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div class="logo">Stephanos Christou</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contacts</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Stephanos Christou</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <ul>
+                    <li><a href="#about" onclick="toggleMenu()">About</a></li>
+                    <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+                    <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+                    <li><a href="#contact" onclick="toggleMenu()">Contacts</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section_pic-container">
+            <img src="./Assets/profile_pic.jpg" alt="Stephanos Christou profile picture" class="profile-pic">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Hello, My name is</p>
+            <h1 class="title">Stephanos Christou</h1>
+            <p class="section__text__p2">Chemical Engineer</p>
+            <div class="btn-container">
+                <button class="btn btn-color-2" onclick="window.open('./Assets/Stephanos Christou CV.pdf')">
+                    Download CV
+                </button>
+                <button class="btn btn-color-1" onclick="location.href='./#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id="socials-container">
+                <img src="./Assets/linkedin.png" alt="My linkedin profile" 
+                class="icon" onclick="location.href='http://www.linkedin.com/in/'">
+                <img src="./Assets/email.png" alt="Email" 
+                class="icon email-icon" onclick="location.href='mailto:Stephanos1672001@gmail.com'">
+                <img src="./Assets/phone.jpg" alt="phone" 
+                class="icon" onclick="location.href='tel:35796827302'">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <h1 class="title">About me</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./Assets/about_pic.jpg" alt="profile picture" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./Assets/experience.png" alt="Experience icon" class="icon">
+                        <h3>Experience</h3>
+                        <p>2023 <br /> Graduate Chemical Engineer </p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./Assets/education.png" alt="education icon" class="icon">
+                        <h3>Education</h3>
+                        <p>B.Eng(Hons) Chemical Engineering <br /> Swansea University <br>Achived 2:1 </p>
+                    </div>
+                </div>
+                <div class="text-container"> Hi, My name is Stephanos Christou. I have recently graduated from Swansea University as a Chemical Engineer achieving an upper secind class honours. I am actively seeking a position that allows me to leverage my academic knowledge and practical skills in a dynamic professional environment. I am particularly interested in joining a forward-thinking company that values innovation and sustainability within the realm of chemical engineering. My academic background has equipped me with a solid understanding of process engineering, chemical analysis, and optimization techniques. I am eager to contribute to a company that fosters a collaborative and growth-oriented atmosphere, where I can further develop my expertise and make meaningful contributions to the organization's success. I am drawn to companies that prioritize environmentally friendly practices and embrace cutting-edge technologies, and I am excited about the opportunity to be a part of such a team.
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#experience'"/>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow-up" onclick="location.href='./#profile'"/>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Explore My</p>
+        <h1 class="title">Experience</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Techinal Skills</h2>
+                    <div class="article-container">
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>EXCEL</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>AutoCad</h3>
+                                <P>Intermidiate</P>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Unisim</h3>
+                                <P>Beginner</P>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Microsoft Word</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>PowerPoint</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Python</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <P>Experienced</P>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Non Techinal skiils</h2>
+                    <div class="article-container">
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Problem Solving</h3>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Team work & Collaboration</h3>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Time Managment</h3>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Adaptability</h3>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Attention to detail</h3>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Leadership</h3>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Analytical Thinking</h3>
+                            </div>
+                        </article>
+                        <article><img src="./Assets/checkmark.png" alt="Experience icon" class="icon"/>
+                            <div>
+                                <h3>Inovation and Creativity</h3>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#projects'"/>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow-up" onclick="location.href='./#about'"/>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Browse my recent</p>
+        <h1 class="title">Project</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/HYDROGEN GENERATION.pdf" alt="Project 1 Hydrogen Generation" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='./Assets/HYDROGEN GENERATION.pdf'">Open project 1
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/Final Report.pdf" alt="Final Report" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project 1</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href='./Assets/'">Open project 1
+                        </button>
+                    </div>
+                </div>
+                <div class="details-container color-container">
+                    <div class="article-container">
+                        <img src="./Assets/HYDROGEN GENERATION.pdf" alt="Project 2" class="project-img">
+                    </div>
+                    <h2 class="experience-sub-title project-title">Project 2</h2>
+                    <div class="btn-container">
+                        <button class="btn btn-color-2 project-btn" onclick="location.href=''">Open project 2
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow" onclick="location.href='./#contact'"/>
+        <img src="./Assets/arrow.png" alt="arrow icon" class="icon arrow-up" onclick="location.href='./#experience'"/>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Get in touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="./Assets/email.png" alt="Email icon" class="icon contact-icon email-icon">
+                <p><a href="mailto:Stephanos1672001@gmail.com">Stephanos1672001@gmail.com</a></p>
+            </div>
+            <div class="contact-info-container">
+                <img src="./Assets/linkedin.png" alt="linkedin icon" class="icon contact-icon">
+                <p><a href="http://www.linkedin.com/in/">LinkedIn</a></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contacts</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169; 2024 Stephanos Christou. All Rights Reserved</p>
+    </footer>
+    <script src="script.js">
+    </script>
+</body>
+</html>
